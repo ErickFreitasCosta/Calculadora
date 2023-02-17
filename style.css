@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.fundo{
+    background-image: linear-gradient(45deg,black,rgb(255, 255, 255));   /*Cor de fundo*/
+    color: #fff;
+    font-family: arial;
+    height: 100vh;
+    text-align: center;
+}
+.calculadora{
+    position: absolute; /*Assim ela vai ocupar apenas o espaço dela mesma*/
+    background-color: rgba(0, 0, 0, 0.7);
+
+    /* Para ela ficar corretamente centralizada */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*             */
+    border-radius: 15px;
+    padding: 15px; /*É a distância entre a borda e os nossos elementos*/
+
+    
+
+}
+.btn{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(31, 31,31);
+    color: white;
+    margin: 3px;
+}
+.btn:hover{
+    background-color: black;
+    transition-duration: 1s;
+    
+    box-shadow: inset -10.5deg,inset 10.5deg;
+
+}
+#resultado{
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+#resultado:hover{
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    box-shadow: 0 0 5px #ff96ad , 0 0 25px #ff96ad , 0 0 50px #ff96ad ,0 0 200px #ff96ad;
+}
+
+
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    
+}
+.principal{
+	-webkit-animation: tracking-in-contract 10s 1s ;
+	        animation: tracking-in-contract 10s 1s ;
+}
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+  .flutua{
+    position: relative;
+    margin-top: 90vh;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    text-shadow: 0 0 5px #ff96ad , 0 0 25px #ff96ad , 0 0 50px #ff96ad ,0 0 200px #ff96ad;
+  }
